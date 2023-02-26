@@ -1,9 +1,8 @@
-from turtle import title
+
 import streamlit as st
 import os
 import pandas as pd
 import matplotlib as plt
-import altair as alt
 import plotly.express as px
 import plotly.figure_factory as ff
 st.set_page_config(layout = "wide")

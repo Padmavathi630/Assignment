@@ -10,13 +10,18 @@ file_directory=os.path.dirname(os.path.abspath(__file__))
 parent_directory=os.path.join(file_directory,os.pardir)
 
 dir_of_interest=os.path.join(parent_directory,"resources")
+IMAGE_PATH1= os.path.join(dir_of_interest, "images", "n1.jpg")
+IMAGE_PATH2= os.path.join(dir_of_interest, "images", "n2.jpg")
+
+
+
 
 
 
 
 st.title(":orange[**_Everything in nature invites us constantly to be what we are_**]:heartpulse:")
-imag1=img.imread(r"C:\Users\ASUS\Desktop\Internship\proj2\resourses\images\n1.jpg")
-imag2=img.imread(r"C:\Users\ASUS\Desktop\Internship\proj2\resourses\images\n2.jpg")
+imag1=img.imread(IMAGE_PATH1)
+imag2=img.imread(IMAGE_PATH2)
 
 st.markdown(":red[_**If you love nature, you will find beauty anywhere._**]")
 
